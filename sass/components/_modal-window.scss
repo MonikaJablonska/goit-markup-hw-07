@@ -21,7 +21,7 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
     0 2px 1px rgba(0, 0, 0, 0.2);
 
-  .modal-window__btn {
+  &__btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -36,12 +36,12 @@
     cursor: pointer;
   }
 
-  .modal-window__icon-close {
+  &__icon-close {
     width: 10px;
     height: 10px;
   }
 
-  .modal-window__heading {
+  &__heading {
     margin-top: 40px;
     padding-bottom: 2px;
     font-size: 20px;
