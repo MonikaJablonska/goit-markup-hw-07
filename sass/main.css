@@ -233,11 +233,11 @@
   letter-spacing: 0.03em;
 }
 
-.container-what-we-do {
+.what-we-do__container {
   margin-bottom: 94px;
 }
 
-.what-we-do-header-2 {
+.what-we-do__heading {
   margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.167;
@@ -246,7 +246,7 @@
   text-align: center;
 }
 
-.list-what-we-do {
+.what-we-do__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -255,11 +255,11 @@
           justify-content: space-between;
 }
 
-.what-we-do-item {
+.what-we-do__item {
   position: relative;
 }
 
-.what-we-do-text {
+.what-we-do__text {
   position: absolute;
   inset: auto 0 0 0;
   /* bottom: 0;
