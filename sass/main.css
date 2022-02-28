@@ -188,25 +188,17 @@
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.container-our-strength {
+.our-strengths__container {
   margin-bottom: 94px;
 }
 
-.list-our-strengths {
+.our-strengths__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.container-our-strength {
-  margin-bottom: 94px;
-}
-
-.list-item-our-strengths-margin:not(:last-of-type) {
-  margin-right: 30px;
-}
-
-.our-strength-header-4 {
+.our-strengths__heading {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.143;
@@ -214,21 +206,25 @@
   color: var(--secondary-text-color);
 }
 
-.our-strength-icon-container {
+.our-strengths__icon-container {
   margin-bottom: 30px;
   padding: 25px 0;
   border-radius: 4px;
   background-color: var(--light-background-color);
 }
 
-.our-strength-icon {
+.our-strengths__item:not(:last-of-type) {
+  margin-right: 30px;
+}
+
+.our-strengths__icon {
   display: block;
   margin: 0 auto;
   width: 70px;
   height: 70px;
 }
 
-.strength-text {
+.our-strengths__text {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
