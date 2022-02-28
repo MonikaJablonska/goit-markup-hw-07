@@ -149,7 +149,7 @@
   letter-spacing: 0.03em;
 }
 
-.logo-accent {
+.logo__accent {
   color: var(--accent);
 }
 
