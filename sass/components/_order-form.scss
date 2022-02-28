@@ -32,7 +32,7 @@
   }
 
   &__textarea {
-    @extend &__input;
+    @extend .order-form__input;
     padding: 12px 16px;
     min-height: 120px;
   }
