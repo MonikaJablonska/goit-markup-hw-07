@@ -1,10 +1,9 @@
-
 .order-form {
   display: flex;
   flex-direction: column;
   margin: 0 40px;
 
-  .order-form__label {
+  &__label {
     margin-top: 10px;
     margin-bottom: 4px;
     font-size: 12px;
@@ -12,19 +11,19 @@
     letter-spacing: 0.01em;
   }
 
-  .order-form__input-holder {
+  &__input-holder {
     display: flex;
     border: 1px solid var(--border-input-holder);
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .order-form__input-holder:hover,
-  .order-form__input-holder:focus-within {
+  &__input-holder:hover,
+  &__input-holder:focus-within {
     border: 1px solid var(--accent);
   }
 
-  .order-form__input {
+  &__input {
     padding: 12px 0;
     width: 100%;
     border: transparent;
@@ -32,19 +31,19 @@
     outline: none;
   }
 
-  .order-form__textarea {
-    @extend .order-form__input;
+  &__textarea {
+    @extend &__input;
     padding: 12px 16px;
     min-height: 120px;
   }
 
-  .order-form__textarea::placeholder {
+  &__textarea::placeholder {
     font-size: 12px;
     line-height: 1.17;
     color: var(--textarea-placeholder-color);
   }
 
-  .order-form__icon {
+  &__icon {
     margin-top: 11px;
     margin-left: 12px;
     margin-right: 12px;
@@ -54,19 +53,23 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .order-form__input-holder:hover .order-form__icon,
-  .order-form__input-holder:focus-within .order-form__icon {
+  &__input-holder:hover &__icon,
+  &__input-holder:focus-within &__icon {
     fill: var(--accent);
   }
 
-  .order-form__btn {
+  &__btn {
     margin-top: 30px;
     padding: 10px 76px;
     align-self: center;
     color: var(--light-color);
     background-color: var(--accent);
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08),
-    0 2px 2px rgba(0, 0, 0, 0.12);
+      0 2px 2px rgba(0, 0, 0, 0.12);
+  }
+
+  &__link {
+    color: var(--accent);
   }
 }
 
@@ -88,6 +91,3 @@
     background: url("../images/icon_check.svg") no-repeat;
   }
 }
-
-
-

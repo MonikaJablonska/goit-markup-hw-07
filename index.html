@@ -492,50 +492,50 @@
           </svg>
         </button>
         <h2 class="modal-window__heading">Zostaw swoje dane w formularzu poniżej</h2>
-        <form class="modal-form" name="order_form" autocomplete="on" novalidate>
-          <label class="modal-form-label" for="first-name">Imię</label>
-          <div class="modal-form-input-holder">
-            <svg class="modal-form-icon">
+        <form class="order-form" name="order_form" autocomplete="on" novalidate>
+          <label class="order-form__label" for="first-name">Imię</label>
+          <div class="order-form__input-holder">
+            <svg class="order-form__icon">
               <use href="images/icons.svg#icon-person" />
             </svg>
             <input
-              class="modal-form-input"
+              class="order-form__input"
               id="first-name"
               type="text"
               name="first-name"
             />
           </div>
 
-          <label class="modal-form-label" for="telephone">Telefon</label>
-          <div class="modal-form-input-holder">
-            <svg class="modal-form-icon">
+          <label class="order-form__label" for="telephone">Telefon</label>
+          <div class="order-form__input-holder">
+            <svg class="order-form__icon">
               <use href="images/icons.svg#icon-phone" />
             </svg>
             <input
-              class="modal-form-input"
+              class="order-form__input"
               id="telephone"
               type="tel"
               name="telephone"
             />
           </div>
 
-          <label class="modal-form-label" for="email">Email</label>
-          <div class="modal-form-input-holder">
-            <svg class="modal-form-icon">
+          <label class="order-form__label" for="email">Email</label>
+          <div class="order-form__input-holder">
+            <svg class="order-form__icon">
               <use href="images/icons.svg#icon-email" />
             </svg>
             <input
-              class="modal-form-input"
+              class="order-form__input"
               id="email"
               type="email"
               name="email"
             />
           </div>
 
-          <label class="modal-form-label" for="comment">Komentarz</label>
-          <div class="modal-form-input-holder">
+          <label class="order-form__label" for="comment">Komentarz</label>
+          <div class="order-form__input-holder">
             <textarea
-              class="modal-form-input modal-form-textarea"
+              class="order-form__textarea"
               id="comment"
               name="comment"
               placeholder="Wprowadź tekst"
@@ -551,11 +551,11 @@
             />
             <label for="user-policy">
               Oświadczam iż akceptuję
-              <a class="modal-form-link" href="#">Regulamin</a> i
-              <a class="modal-form-link" href="#">Politykę Prywatności</a>.
+              <a class="order-form__link" href="#">Regulamin</a> i
+              <a class="order-form__link" href="#">Politykę Prywatności</a>.
             </label>
           </div>
-          <button class="btn modal-form-btn" type="submit">Wyślij</button>
+          <button class="btn order-form__btn" type="submit">Wyślij</button>
         </form>
       </div>
     </div>
